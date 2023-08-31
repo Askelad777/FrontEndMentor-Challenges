@@ -103,11 +103,16 @@ ul li img{
   font-weight: 500;
 }
 
-.left-container label{
+.validationMessage{
+  display: flex;
+}
+
+.left-container .validationMessage label{
   font-size: .8rem;
   margin-top: 2rem;
   margin-bottom: 10px;
   font-weight: 500;
+  width: 50%;
 }
 
 .left-container input{
@@ -118,6 +123,20 @@ ul li img{
     font-size: 1rem;
     padding: 10px 20px;
 }
+
+#Email-validation-message{
+  padding-top: 30px;
+  text-align: end;
+  width: 50%;
+  font-size: .9rem;
+  font-weight: 700;
+  color: red;
+  display: none;
+}
+#Email-validation-message.visible{
+  display: block;
+}
+
 
 .left-container button{
     background: hsl(234, 29%, 20%);
