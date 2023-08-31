@@ -69,6 +69,3 @@ btnSubscribe.addEventListener('click', showSuccessModalHandler);
 
 
 btnDsmMsg.addEventListener('click', closeSuccessModalHandler)
-
-
-emailInput.addEventListener('input', emailValidation);
