@@ -7,9 +7,12 @@ const successModal = document.getElementById('success-modal');
 const btnDsmMsg = document.getElementById('dismiss-button');
 
 const emailInput = document.getElementById('userEmail');
+const emailInputValue = document.getElementById('userEmail').value;
+
 
 const ErrorMessage = document.getElementById('Email-validation-message');
 
+const confirmationMessage = document.getElementById('confirmation-message')
 
 
 // FUNCTION
@@ -27,7 +30,7 @@ const backdropHandler = () =>{
 
 const showSuccessModal = () =>{  
   toggleBackdrop();
-  successModal.classList.add('visible');
+  successModal.classList.add('visible');  
 };
 
 
